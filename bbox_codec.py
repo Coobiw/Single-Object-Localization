@@ -34,7 +34,7 @@ def bbox_decode(objects,score,loc,feature_map_size): # 只处理batch_size=1
     # print(loc)
     loc = loc.view(4,feature_map_size,feature_map_size)
     loc = loc.permute(1,2,0).contiguous()
-    loc = loc.view(feature_map_size**2,feature_map_size)
+    loc = loc.view(feature_map_size**2,4)
 
     o_max = t.max(objects,dim=0)[1]
     loc = loc[o_max,:]

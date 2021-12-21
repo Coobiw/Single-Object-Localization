@@ -1,5 +1,9 @@
 # Object Localization via CNN
 
+## with anchor method
+The .py file with name "with_anchor" is the algorithm which uses anchor to let the model learn the offset of bounding boxes.
+
+You can compare them with the original algorithm and codes without anchors.
 ## Task and Dataset Info
 
 >- Object localization using CNN 

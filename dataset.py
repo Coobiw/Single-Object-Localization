@@ -84,6 +84,7 @@ if __name__ == '__main__':
     img = item['img']
     bbox = item['bbox'].data.numpy()
     print(bbox.shape)
+    print(bbox)
     img = img.numpy().transpose(1,2,0)
     img = img *[0.229,0.224,0.225] + [0.485,0.456,0.406]
     img = img*255
