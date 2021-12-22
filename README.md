@@ -11,7 +11,9 @@ You can compare them with the original algorithm and codes without anchors.
 >- Evaluation metric: A correct localization means the predict class label is correct and the predict box has an loU>0.5 with the ground- truth. 
 >- implementing the localization network using direct bbox regression 
 
-**Because this is an experiment of 《Foundation of Computer Vision》class which is hosted by Prof.Xinggang Wang and Prof.Zhenyu Liao in Huazhong University of Science and Technology.** So I think that I don't have the privilege to make the dataset opensource. So I just introduce the feature of the data **which is said above.**
+**Because this is an experiment of 《Foundation of Computer Vision》class which is hosted by Prof.Xinggang Wang and Prof.Zhenyu Liao in Huazhong University of Science and Technology.** So I am not sure whether I have the privilege to make the dataset open source. Whatever, if there is any question, please contact on me! I will pull it at soon.
+
+## dataset is shown in the .zip file
 
 ## some dataset info
 data: image with only one object inside

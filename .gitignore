@@ -5,7 +5,6 @@ log_and_model/
 figs/
 .ipynb_checkpoints/
 .idea/
-tiny_vid.zip
 anchor_log_model/
 
 # Byte-compiled / optimized / DLL files

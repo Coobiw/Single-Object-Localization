@@ -140,7 +140,7 @@ def anchor_decode(objects,scores,offsets,anchors):# offsets:[anchor_num_per_grid
 
 if __name__ == '__main__':
     anchors = anchor_generate(kms_anchor=kms_result_anchor(t.device('cuda')))
-    print(anchors[0,:,0,0])
+    print(anchors)
     print(anchors.shape)
 
     from dataset import tiny_dataset
